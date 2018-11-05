@@ -52,5 +52,4 @@ public class UserStatusControllerTest extends BaseControllerTest {
 
     return requestMap;
   }
-  
 }
