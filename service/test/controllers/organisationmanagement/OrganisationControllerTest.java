@@ -16,7 +16,7 @@ public class OrganisationControllerTest extends BaseControllerTest {
 
   private static String orgName = "org-name";
   private static String orgId = "org-Id";
-  private static String rootOrgId = "root-org-id";
+  private static String rootOrgId = "root-orgid";
   private static String status = "1";
 
   @Test
@@ -159,7 +159,6 @@ public class OrganisationControllerTest extends BaseControllerTest {
       boolean isStatus,
       boolean isFilter,
       String isFilterNUll) {
-
     Map<String, Object> requestMap = new HashMap<>();
     Map<String, Object> innerMap = new HashMap<>();
     if (isOrgName) innerMap.put(JsonKey.ORG_NAME, orgName);
